@@ -1,0 +1,71 @@
+
+@font-face {
+
+   font-family: myFirstFont;
+   src: url(Stellar-light.otf);
+}
+
+@font-face {
+
+   font-family: mySecondFont;
+   src: url(Ailerons-Regular.otf);
+}
+
+@font-face {
+
+   font-family: myThirdFont;
+   src: url(Anurati-Regular.otf);
+}
+
+
+body {
+
+background-image: url(t-pose2.png);
+background-repeat: no-repeat;
+background-size: 1540px 1000px;
+}
+
+
+#model {
+color: white;
+text-align:center;
+}
+
+#header {
+color: white;
+font-family: myThirdFont;
+font-size: 55px;
+text-align:center;
+padding: 5%;
+}
+
+#sub {
+font-family: mySecondFont;
+color: white;
+font-size: 33px;
+text-align:center;
+padding-bottom: 10%;
+}
+
+.button {
+color: white;
+height: 70px;
+width: 1420px;
+padding-top: 18%;
+padding-bottom: 18%;
+font-size: 70px;
+text-align: center;
+font-family: mySecondFont;
+}
+
+  #layer1 {
+  background-color: #491401;
+  }
+
+  #layer2 {
+  background-color: #011648;
+  }
+
+  #layer3 {
+  background-color: #efca26;
+  }
