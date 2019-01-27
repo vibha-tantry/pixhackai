@@ -19,6 +19,9 @@
 #nav {
   font-family: mySecondFont;
   color:white;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 
 }
 
