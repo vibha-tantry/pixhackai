@@ -1,0 +1,2 @@
+# pixhackai
+AI awareness website
