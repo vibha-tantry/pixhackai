@@ -1,0 +1,109 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(Anurati-Regular.otf);
+
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(Ailerons-Typeface.otf);
+
+}
+
+@font-face {
+  font-family: mainFont;
+  src: url(Stellar-Medium.otf);
+
+}
+
+#nav {
+  font-family: mySecondFont;
+  color:white;
+
+}
+
+#page1 {
+  font-family: myFirstFont;
+  text-align: center;
+  padding-top: 250px;
+  color: white;
+  font-size: 60px;
+  background-image: url(t-pose1.png);
+  background-repeat: no-repeat;
+  background-size: 1540px 1000px;
+  height: 1000px;
+  margin: 0 auto;
+}
+
+#page2 {
+  font-family: mainFont;
+  color: #5BC4AF;
+  padding-left: 30px;
+  height: 1000px;
+}
+
+#page3 {
+  font-family: mainFont;
+  color: white;
+  padding-left: 30px;
+  height: 1500px;
+}
+
+#page4 {
+  font-family: mainFont;
+  color: white;
+  padding-left: 30px;
+  height: 1000px;
+}
+
+#footer {
+  background-color: grey;
+  color: black;
+  font-family: mainFont;
+}
+
+
+.hover {
+  font-family: mainFont;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  height: 600px;
+  width: 350px;
+  color: grey;
+  margin: 5px;
+
+
+}
+
+.tab {
+  font-family: mainFont;
+  background-color: grey;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 14px 10px;
+  font-size: 19px;
+  width: 24.5%;
+  text-align: center;
+}
+
+h2 {
+  font-family: mySecondFont;
+  font-size: 60px;
+}
+
+body {
+font-family: mainFont;
+  background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*anurati -title
+maybe elexia -title
+ailerons -title
+elianto - subtitle
+stellar - paragraph>*/

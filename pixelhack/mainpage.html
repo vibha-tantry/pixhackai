@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href= "style.css">
+<script src = "moving.js"></script>
+  <head>
+    <title> UNBALANCED.</title>
+
+  </head>
+
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+      $('.smooth').on('click', function() {
+        $.smoothScroll({
+          scrollElement: $('body'),
+          scrollTarget: '#' + this.id
+        });
+
+        return false;
+      });
+    </script>+
+    <div id = "nav">
+      <button class = "tab" onclick = "location.href = '#main'">Home</button>
+      <button class = "tab" onclick = "location.href = '#pros'">The Benefits</button>
+      <button class = "tab" onclick = "location.href = '#cons'">The Consequences</button>
+      <button class = "tab" onclick = "location.href = '#model'">Our Solution</button>
+
+    </div>
+
+    <div id = "page1">
+      <a id = "main" class = "smooth"> </a>
+      <h1> UNBALANCED. </h1>
+      <h2> social inequality by AI. </h2>
+    </div>
+
+    <div id = "page2">
+      <a id = "pros" class = "smooth"> </a>
+      <h2> Don't get us wrong, we love AI. </h2>
+      <h1>There are many benefits of artificial intelligence:</h1>
+      <br><br><br>
+      <button style="background-color: #B5F3E7;" class = "hover" onmouseout = "this.innerHTML = 'company profits'"
+      onmouseover = "this.innerHTML = 'Businesses are using AI to solve many of their problems like automating routine processes, predicting consumer preferences, maximizing sale opportunities, and even selecting job applicants. With its early potential, companies in every sector look to AI in order to hold an advantage over competitors, and also believe suppliers and customers would prefer intelligent services.'">company profits</button>
+      <button style="background-color: #B5F3E7;" class = "hover" onmouseout = "this.innerHTML = 'quick n easy'"
+      onmouseover = "this.innerHTML = 'AI will make the consumer process of buying and trying new products personalized and convenient for avid purchasers, from predictive search engines, intelligent personal assistants, and natural language processing, all now commonly used by many individuals for various applications. '">quick n easy</button>
+      <button style="background-color: #B5F3E7;" class = "hover" onmouseout = "this.innerHTML = 'consumer satisfaction'"
+      onmouseover = "this.innerHTML = 'The presence of AI in consumeristic practices has become increasingly visible over the past several years, from personalized assistants such as Siri or Alexa to individualized shopping patterns and predictive text recognition. This is primarily due to positive consumer response, and a fascination with new technology.'">consumer satisfaction</button>
+      <button style="background-color: #B5F3E7;" class = "hover" onmouseout = "this.innerHTML = 'economic boost'"
+      onmouseover = "this.innerHTML = 'AI is able to analyze big sums of data and predict accurately at a much lower cost than it would take to hire a team of research analysts to vigorously sort data by hand. In a recent report by research company Markets and Markets, the AI market was worth over 20 billion dollars as of 2018 and could reach almost 200 billion by 2025. '">economic boost</button>
+    </div>
+
+    <div id = "page3">
+      <a id = "cons" class = "smooth"> </a>
+      <h2> AI can perpetuate social inequality in many ways. </h2>
+      <h1>Here are a few:</h1>
+      <button class = "hover" onmouseout = "this.innerHTML = 'unemployment'"
+      onmouseover = "this.innerHTML = 'Although AI has the potential to boost our economy and increase productivity, it could also concentrate enormous profit in relatively few companies and dominate whole enterprises, replacing jobs that can easily be automated or relegated to intelligent algorithms. This means mass unemployment on an entirely unprecedented scale across numerous industries and enterprises. These workers lack the skills and education to find advanced jobs, and would struggle to gain them without an income.'">unemployment</button>
+      <button class = "hover" onmouseout = "this.innerHTML = 'the court system'"
+      onmouseover = "this.innerHTML = 'Law firms are '">the court system</button>
+      <button class = "hover" onmouseout = "this.innerHTML = 'public services'"
+      onmouseover = "this.innerHTML = 'AI algorithms remove the need for empathetic welfare services. There are wide disparities between the intended results and the actual outcomes AI algorithms for social welfare; AI technology is simply creating new institutions by which to profile, police and punish the poor. '">public services</button>
+      <button class = "hover" onmouseout = "this.innerHTML = 'centralization'"
+      onmouseover = "this.innerHTML = rate enormous value in relatively few companies and dominate whole enterprises. While profitable, this will lead to the centralization of the control of AI in a select elite. Without putting the proper education and inclusivity initiatives in place, very few will be able to harness the full capabilities of AI.'">centralization</button>
+      <br>
+
+      <h3 style ="font-size:60px;">&#34;Human decisions are not based on ones and zeros ... &#40;but on&#41; social context and social background.</h3>
+      <h4 style ="font-size:30px; text-align:right;"> &#45;Anthony Cook, Microsoft General Counsel</h4>
+      <br>
+      <h4 style ="font-size:30px;">The world is historically biased. Artificially intelligent algorithms will, therefore, return equally biased results and reflect the implicit prejudices of their developers. It is these qualities of AI that give it the potential to become a major instigator of income inequality and prejudice.</h4>
+
+      <br>
+      <button class = "hover" onmouseout = "this.innerHTML = 'company profits'"
+      onmouseover = "this.innerHTML = 'tell me more'">company profits</button>
+      <button class = "hover" onmouseout = "this.innerHTML = 'COMPAS'"
+      onmouseover = "this.innerHTML = 'tell me more'">COMPAS</button>
+      <button class = "hover" onmouseout = "this.innerHTML = 'Human Services'"
+      onmouseover = "this.innerHTML = 'tell me more'">convenience</button>
+      <button class = "hover" onmouseout = "this.innerHTML = 'economic boost'"
+      onmouseover = "this.innerHTML = 'tell me more'">economic boost</button>
+    </div>
+
+    <div id = "page4">
+      <a id = "model"class = "smooth"> </a>
+      <h2>Our solution: AI Governance Model</h2>
+
+    </div>
+
+    <footer>
+      <div id = "footer">
+        <li> <a href = "reet.html"></a></li>
+      </div>
+    </footer>
+
+  </body>
+
+
+
+<!--target = "_blank" after a link inside 'a href' for page to open in new tab-->
