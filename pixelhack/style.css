@@ -57,7 +57,7 @@
 }
 
 #footer {
-  background-color: grey;
+  background-color: b7b7b7;
   color: black;
   font-family: mainFont;
 }
@@ -70,7 +70,7 @@
   border-radius: 10px;
   height: 600px;
   width: 350px;
-  color: grey;
+  color: b7b7b7;
   margin: 5px;
 
 
@@ -78,7 +78,7 @@
 
 .tab {
   font-family: mainFont;
-  background-color: grey;
+  background-color: b7b7b7;
   color: white;
   border: none;
   outline: none;
